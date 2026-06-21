@@ -15,22 +15,33 @@
     <title>Brew Haven</title>
 </head>
 <body style="font-family: 'Google Sans', serif;" class="">
-    <nav class="flex items-center justify-between py-2 px-7 bg-[#F5EBE0]">
+    <nav id="navbar" class="flex items-center justify-between fixed top-0 left-0 w-full z-50 transition-all duration-300 py-2 px-7">
         <div class="flex items-center">
             <img class="w-[50px] md:w-[60px]" src="images/logo.png" alt="">
-            <h1 class="font-bold text-xl md:text-2xl ml-4">Brew Haven</h1>
+            <h1 id="logoText" class="font-bold text-xl md:text-2xl ml-4">Brew Haven</h1>
         </div>
 
-        <div class="hidden lg:block">
+        <div class="hidden lg:inline-block">
             <ul class="flex items-center gap-9">
-                <li class="font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Home</a></li>
-                <li class="font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">About</a></li>
-                <li class="font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Menu</a></li>
-                <li class="font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Gallery</a></li>
-                <li class="font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Testimonials</a></li>
-                <li class="font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Contact</a></li>
+                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Home</a></li>
+                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">About</a></li>
+                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Menu</a></li>
+                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Gallery</a></li>
+                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Testimonials</a></li>
+                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Contact</a></li>
             </ul>
         </div>
+
+        <i id="hamburger" class="fa fa-bars text-3xl lg:hidden inline-block"></i>
     </nav>
+
+    <section class="">
+        <div class="">
+            <img class="h-[700px] w-full" src="https://t4.ftcdn.net/jpg/05/77/79/67/360_F_577796709_RnfoWC88Q60VMLvuiJ0SVcwq16Ec4YDa.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="mt-[600px]">s</section>
 </body>
+<script src="script.js"></script>
 </html>
