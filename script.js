@@ -1,5 +1,6 @@
 const navbar = document.getElementById('navbar');
 const logoText = document.getElementById('logoText');
+const white = document.getElementById('hamburger');
 const navLinks = document.querySelectorAll('.nav-link');
 
 window.addEventListener('scroll', () => {
@@ -12,6 +13,9 @@ window.addEventListener('scroll', () => {
 
         logoText.classList.remove('text-white');
         logoText.classList.add('text-[#3B241A]');
+
+        white.classList.remove('text-white');
+        white.classList.add('text-black');
 
         navLinks.forEach(link => {
             link.classList.remove('text-white');
@@ -27,6 +31,9 @@ window.addEventListener('scroll', () => {
 
         logoText.classList.remove('text-[#3B241A]');
         logoText.classList.add('text-white');
+
+        white.classList.remove('text-black');
+        white.classList.add('text-white');
 
         navLinks.forEach(link => {
             link.classList.remove('text-[#3B241A]');

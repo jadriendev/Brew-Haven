@@ -15,32 +15,41 @@
     <title>Brew Haven</title>
 </head>
 <body style="font-family: 'Google Sans', serif;" class="">
-    <nav id="navbar" class="flex items-center justify-between fixed top-0 left-0 w-full z-50 transition-all duration-300 py-2 px-7">
+    <nav id="navbar" class="flex items-center justify-between fixed top-0 left-0 w-full z-50 transition-all duration-300 py-2 px-3 lg:px-7">
         <div class="flex items-center">
             <img class="w-[50px] md:w-[60px]" src="images/logo.png" alt="">
-            <h1 id="logoText" class="font-bold text-xl md:text-2xl ml-4">Brew Haven</h1>
+            <h1 id="logoText" class="font-bold text-xl text-[#F5E6CA] md:text-2xl ml-4">Brew Haven</h1>
         </div>
 
         <div class="hidden lg:inline-block">
             <ul class="flex items-center gap-9">
-                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Home</a></li>
-                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">About</a></li>
-                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Menu</a></li>
-                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Gallery</a></li>
-                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Testimonials</a></li>
-                <li class="nav-link text-white font-semibold text-md md:text-lg transition-all  duration-300 hover:text-[#A88347]"><a href="#">Contact</a></li>
+                <li class="nav-link text-[#F5E6CA] font-semibold text-md md:text-lg transition-all  duration-300 lg:hover:text-[#A88347]"><a href="#">Home</a></li>
+                <li class="nav-link text-[#F5E6CA] font-semibold text-md md:text-lg transition-all  duration-300 lg:hover:text-[#A88347]"><a href="#">About</a></li>
+                <li class="nav-link text-[#F5E6CA] font-semibold text-md md:text-lg transition-all  duration-300 lg:hover:text-[#A88347]"><a href="#">Menu</a></li>
+                <li class="nav-link text-[#F5E6CA] font-semibold text-md md:text-lg transition-all  duration-300 lg:hover:text-[#A88347]"><a href="#">Gallery</a></li>
+                <li class="nav-link text-[#F5E6CA] font-semibold text-md md:text-lg transition-all  duration-300 lg:hover:text-[#A88347]"><a href="#">Testimonials</a></li>
+                <li class="nav-link text-[#F5E6CA] font-semibold text-md md:text-lg transition-all  duration-300 lg:hover:text-[#A88347]"><a href="#">Contact</a></li>
             </ul>
         </div>
 
-        <i id="hamburger" class="fa fa-bars text-3xl lg:hidden inline-block"></i>
+        <i id="hamburger" class="fa fa-bars text-3xl lg:hidden inline-block text-white"></i>
     </nav>
 
     <section class="relative">
-        <img class="h-[700px] w-full" src="https://t4.ftcdn.net/jpg/05/77/79/67/360_F_577796709_RnfoWC88Q60VMLvuiJ0SVcwq16Ec4YDa.jpg" alt="">
+        <img class="h-[400px] lg:h-[700px] w-full" src="https://t4.ftcdn.net/jpg/05/77/79/67/360_F_577796709_RnfoWC88Q60VMLvuiJ0SVcwq16Ec4YDa.jpg" alt="">
 
         <div class="absolute inset-0 bg-black/40"></div>
 
-        
+        <div class="absolute inset-0 flex items-center lg:items-start gap-3 justify-center flex-col text-center lg:text-left px-3 lg:px-16 mt-6 lg:mt-0">
+            <h1 class="text-5xl lg:text-8xl font-bold text-[#F5E6CA]">Brew Haven</h1>
+            <h3 class="text-[#E0E0DA] text-sm md:text-lg">Where Every Cup Feels Like Home</h3>
+            <p class="text-[#E0E0DA] text-sm md:text-lg max-w-md">Freshly brewed coffee, handcrafted beverages, and a cozy atmosphere perfect for work, study, or catching up with friends.</p>
+
+            <div class="mt-5 flex items-center justify-center gap-5">
+                <a class="inline-block flex justify-center border-2 border-transparent bg-[#705135] w-[140px] lg:w-[170px] text-[#E0E0DA] py-3 text-sm lg:text-lg px-6 lg:py-3 lg:px-6 rounded-3xl transition-all duration-300 lg:hover:bg-[#523825]" href="#">Explore Menu</a>
+                <a class="inline-block flex justify-center border-2 lg:hover:border-transparent border-[#E0E0DA] w-[140px] lg:w-[170px] text-[#E0E0DA] py-3 text-sm lg:text-lg px-6 lg:py-3 lg:px-6 rounded-3xl transition-all duration-300 lg:hover:bg-[#705135]" href="#">Visit Us</a>
+            </div>
+        </div>
     </section>
 
     <section class="mt-[600px]">s</section>
